@@ -26,7 +26,12 @@
 	
 	html {
 		scroll-behavior: smooth;
-	}						
+	}
+	
+
+	p{
+		font-size:15px;
+	}
 	
 	.landing_banner{
 		background-color: rgba(0, 0, 0, 0.8);
@@ -36,7 +41,20 @@
 		text-align:center;
 	}
 	
+	.adu_part{
+		background-color:white;
+		display:flex;
+		min-width: 100%;
+		min-height: 100%;
+		text-align:center;
+	}
+	
+	.adu_part div{
+		width:33.33%;
+	}
+	
 	.read_more{
+		background-color:#1e4382;
 		display:flex;
 		min-width: 100%;
 		min-height: 100%;
@@ -44,8 +62,9 @@
 	}
 	
 	.read_more div{
+		background-color:rgb(250, 250, 250);
 		text-align:center;
-		width:33%;
+		width:33.33%;
 		color:black;
 	}
 	
@@ -64,7 +83,7 @@
 	  border-radius:20px;
 	  padding: 2px 6px 2px 6px;
 	}
-	
+
 	.button:hover {
 	  font: bold 11px Arial;
 	  text-decoration: none;
@@ -73,6 +92,26 @@
 	  border-radius:20px;
 	  padding: 2px 6px 2px 6px;
 	}
+
+	.button_black {
+	  border:2px solid #1e4382;
+	  font: bold 11px Arial;
+	  color:#1e4382;
+	  text-decoration: none;
+	  background-color: transparent;
+	  border-radius:20px;
+	  padding: 2px 6px 2px 6px;
+	}
+
+	.button_black:hover {
+		font: bold 11px Arial;
+		text-decoration: none;
+		background-color: #1e4382;
+		color:white;
+		border-radius:20px;
+		padding: 2px 6px 2px 6px;
+	}
+	
 	
 	.vid_bg{
 		position: absolute;
@@ -82,3 +121,9 @@
 		min-width: 100%;
 		min-height: 100%;
 	}
+
+	.vertical_banner_div{
+		position:absolute;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+

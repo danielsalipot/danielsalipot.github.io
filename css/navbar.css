@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  position:fixed;
+  z-index: 999;
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+ul li {
+    display: inline;
+	width:5%;
+	padding: 20px;
+	overflow:hidden;
+	text-align:center;
+}
+
+
+ul li a {
+	color:white;
+	width:100%;
+	text-align:center;
+	text-decoration: none;
+	-webkit-text-stroke-width: 0.1px;
+	-webkit-text-stroke-color: black;
+}
+
+.nav_hover:hover{
+	color: #27aae1;
+}
