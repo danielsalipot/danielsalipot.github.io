@@ -25,4 +25,18 @@
 		height:100%;
 	}
 
+	h1{
+		color:#1e4382 ;
+	}
+
+	.vid_bg{
+		position: absolute;
+		right: 0;
+		z-index:-1;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		clip-path: polygon(100% 0, 100% 92%, 65.5% 92%, 60% 100%, 54.5% 92%, 0 92%, 0 0);
+	}
+
 	

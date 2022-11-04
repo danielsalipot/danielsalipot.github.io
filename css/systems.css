@@ -4,7 +4,7 @@
 		overflow-x: hidden;
 		font-family:Trebuchet MS;
 	}
-	
+
 		/* Hide scrollbar for Chrome, Safari and Opera */
 	html::-webkit-scrollbar {
 	  display: none;
@@ -21,6 +21,12 @@
 		height:100vh;
 		overflow:hidden;
 	}
+	
+	.acsent2{
+		background-size:40px;
+		z-index:9999;
+		position:absolute;
+	}
 
 	.two_split{
 		display:flex;
@@ -30,6 +36,9 @@
 		width:50%;
 		text-align:center;
 		color:white;
+		background-position:center;
+		background-size:cover;
+		z-index:2;
 	}
 
 	.black_curtain{
