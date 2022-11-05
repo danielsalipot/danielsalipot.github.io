@@ -36,14 +36,13 @@
 	
 	td img, td video{
 		border:1px solid black;
-		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+		box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(255, 255, 255, 0.19);
 	}
 	
-	td img{
-		background-size:center;
-		background-position:center;
+	video{
+		background-color:white;
 	}
-
+	
 	.description{
 		display: flex;
 		flex-wrap: wrap;
