@@ -5,17 +5,6 @@
 		font-family:Trebuchet MS;
 	}
 
-		/* Hide scrollbar for Chrome, Safari and Opera */
-	html::-webkit-scrollbar {
-	  display: none;
-	}
-
-	/* Hide scrollbar for IE, Edge and Firefox */
-	html {
-	  -ms-overflow-style: none;  /* IE and Edge */
-	  scrollbar-width: none;  /* Firefox */
-	}
-
 	.content, .two_split{
 		width:100vw;
 		height:100vh;

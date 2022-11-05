@@ -20,11 +20,13 @@ ul li {
 
 
 ul li a {
+	font-size:17px;
+	font-weight: 1000;
 	color:white;
 	width:100%;
 	text-align:center;
 	text-decoration: none;
-	-webkit-text-stroke-width: 0.1px;
+	-webkit-text-stroke-width: 0.9px;
 	-webkit-text-stroke-color: black;
 }
 
