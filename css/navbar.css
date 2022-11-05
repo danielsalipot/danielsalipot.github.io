@@ -18,6 +18,41 @@ ul li {
 	text-align:center;
 }
 
+.hamburger{
+	width:100%;
+	position:absolute; 
+	text-align:right;
+	visibility:hidden;
+	overflow: visible;
+	z-index:10000;
+}
+.ham_icon{
+	padding-top:10px;
+	padding-right:20px;
+	background-color:#1e4382;
+}
+
+.ham_icon:hover + .ham_div, .ham_div:hover{
+	display: block;
+}
+
+.ham_div{
+	padding-right:20px;
+	display: none;
+}
+
+.ham_items{
+	background-color:rgba(30, 67, 130,0.3);
+	width:100%;
+	padding:20px;
+	padding-left:0px;
+}
+
+.ham_items a{
+	color:white;
+	text-decoration:none;
+}
+
 
 ul li a {
 	font-size:17px;
@@ -30,6 +65,18 @@ ul li a {
 	-webkit-text-stroke-color: black;
 }
 
-.nav_hover:hover{
+
+@media (max-width: 1000px) {
+    ul {
+		display: none;
+    }
+	
+	.hamburger{
+		visibility:visible;
+	}
+}
+	
+
+.nav_hover:hover, .ham_items a:hover{
 	color: #27aae1;
 }
